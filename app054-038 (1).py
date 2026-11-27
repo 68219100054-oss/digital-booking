@@ -1,4 +1,4 @@
-%%writefile app054-038.py
+
 import streamlit as st
 
 #ตั้งค่าหน้าเว็บไซต์
