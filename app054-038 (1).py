@@ -49,7 +49,7 @@ quantity = st.number_input(
 )
 
 #คำนวณราคา
-price = prices[ticket}
+price = prices[ticket]
 total = price*quantity
 
 st.write("ราคาต่อตั่ว:",price,"บาท")
