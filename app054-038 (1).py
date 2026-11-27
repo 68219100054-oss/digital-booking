@@ -1,4 +1,4 @@
-import streamlit as st
+      import streamlit as st
 
 #ตั้งค่าหน้าเว็บไซต์
 st.set_page_config(
@@ -49,7 +49,7 @@ quantity = st.number_input(
 )
 
 #คำนวณราคา
-price = prices{ticket}
+price = prices[ticket}
 total = price*quantity
 
 st.write("ราคาต่อตั่ว:",price,"บาท")
