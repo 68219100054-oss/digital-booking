@@ -8,7 +8,7 @@ st.set_page_config(
 )
 
 #กำหนดราคาตั๋ว
-pricer = {
+price = {
     "Standard": 100,
     "VIP":250,
     "Premium":400,
@@ -30,7 +30,7 @@ with  col2:
  st.info("VIP")
  st.write(" 250 บาท")
 with col3:
-   st.info("Premiu,")
+   st.info("Premium")
    st.write("400 บาท")
 st.divider()
 
