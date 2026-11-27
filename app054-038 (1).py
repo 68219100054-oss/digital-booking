@@ -66,7 +66,7 @@ if st.button("ยืนยันการสั่งซื้อ"):
   else:
     st.success("สั่งซื้อตั๋วเรียบร้อยแล้ว!")
 
-    st.subheaheader("สรุปคำสั่งซื้อ")
+    st.subheader("สรุปคำสั่งซื้อ")
     st.write("ชื่อผุ้สั่งซื้อ:",name)
     st.write("ประเภทตั๋ว:",ticket)
     st.write("จำนวน:",quantity,"ใบ")
