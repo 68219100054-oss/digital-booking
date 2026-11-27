@@ -1,4 +1,5 @@
-      import streamlit as st
+%%writefile app054-038.py
+import streamlit as st
 
 #ตั้งค่าหน้าเว็บไซต์
 st.set_page_config(
