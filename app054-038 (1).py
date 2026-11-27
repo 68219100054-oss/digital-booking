@@ -21,7 +21,7 @@ st.divider()
 
 #แสดงประเภทตั๋ว
 st.subheader("ประเภทตั๋ว")
-col1, col2, col3, = st.colums(3)
+col1, col2, col3, = st.columns(3)
 with col1:
   st.info("Standard")
   st.write("100 บาท")
