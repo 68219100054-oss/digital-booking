@@ -55,7 +55,7 @@ total = price*quantity
 
 st.write("ราคาต่อตั่ว:",price,"บาท")
 st.write("จำนวน:",quantity,"ใบ")
-st.subheaheader(f"ยอดรวม{total:}บาท")
+st.subheader(f"ยอดรวม{total:}บาท")
 
 st.divider()
 
