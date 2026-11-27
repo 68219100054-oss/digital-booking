@@ -44,7 +44,7 @@ ticket = st.selectbox(
 quantity = st.number_input(
     "จำนวนตั๋ว",
     min_value=1,
-    min_value=10,
+    max_value=10,
     value=1
 )
 
