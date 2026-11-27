@@ -34,7 +34,7 @@ with col3:
 st.divider()
 
 #แบบฟอร์มคำสั่งซื้อ
-st.subheaheader("แบบฟอร์มสั่งซื้อ")
+st.subheader("แบบฟอร์มสั่งซื้อ")
 name = st.text_input("ชื่อผู้สั่งซื้อ")
 ticket = st.selectbox(
     "เลือกประเภทตั๋ว"
