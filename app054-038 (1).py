@@ -31,7 +31,7 @@ with  col2:
 with col3:
    st.info("Premiu,")
    st.write("400 บาท")
-st.divder()
+st.divider()
 
 #แบบฟอร์มคำสั่งซื้อ
 st.subheaheader("แบบฟอร์มสั่งซื้อ")
